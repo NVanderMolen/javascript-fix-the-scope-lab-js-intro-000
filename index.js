@@ -6,7 +6,7 @@ function myAnimal() {
 }
 
 function yourAnimal() {
-  var animal = cat
+  var animal = 'cat'
 
   // The tests expect this function to return `animal` just like the previous function
   // However, you cannot simply modify the existing variable declared on line 1 in the global scope
@@ -33,4 +33,3 @@ var funkyFunction = function() {
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction();
- 
